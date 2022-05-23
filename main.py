@@ -7,10 +7,9 @@ class Biblioteka():
         self.autor = autor
         self.rok = rok
         self.ewidencja = 1
-        self.ksiazka = self.tytul,self.autor
         
     def __repr__(self):
-        return "'"+self.autor +""+ "'," + str(self.ewidencja)
+        return "'"+self.autor +"'," + str(self.ewidencja)
     
 
 ksiazka_dane = {}
