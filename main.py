@@ -17,8 +17,8 @@ ksiazka_dane = {}
 ilosc_ksiazek = int(input())
 for ilosc in range(ilosc_ksiazek):
     ksiazka_wejsciowa = eval(input())
-    tytul = ksiazka_wejsciowa[0]
-    autor = ksiazka_wejsciowa[1]
+    tytul = ksiazka_wejsciowa[0].strip()
+    autor = ksiazka_wejsciowa[1].strip()
     rok = ksiazka_wejsciowa[2]
     if tytul in ksiazka_dane:
         ksiazka_dane[tytul].ewidencja +=1
