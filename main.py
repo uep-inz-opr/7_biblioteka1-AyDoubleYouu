@@ -9,7 +9,7 @@ class Biblioteka():
         self.ewidencja = 1
         
     def __repr__(self):
-        return "'"+self.autor +"'," + str(self.ewidencja)
+        return "'" + self.autor +"',"+ str(self.ewidencja)
     
 
 ksiazka_dane = {}
@@ -25,6 +25,6 @@ for ilosc in range(ilosc_ksiazek):
         ksiazka_dane[tytul] = Biblioteka(tytul,autor,rok)
 
 posortowane_ksiazki_dane = sorted(ksiazka_dane.items())
-
+#print(ksiazka_dane)
 for ksiazka in posortowane_ksiazki_dane:
     print(ksiazka)
