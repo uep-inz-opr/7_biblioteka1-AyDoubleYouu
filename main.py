@@ -9,7 +9,7 @@ class Biblioteka():
         self.ewidencja = 1
         
     def __repr__(self):
-        return "'" + self.autor +"',"+ str(self.ewidencja)
+        return "'" + self.autor +"',"+" "+str(self.ewidencja)
     
 
 ksiazka_dane = {}
